@@ -54,11 +54,11 @@ class BlackjackGUI:
 
     def __init__(self, root):
         self.root = root
-        self.root.title('Blackjack Casino')
+        self.root.title('Blackjack')
         self.root.geometry('720x640')
         self.root.configure(bg='#0B4726')  # Dark green casino felt
 # Set Window Title
-        self.root.title("Blackjack Casino")
+        self.root.title("Blackjack")
 
         # Set Window Icon
         icon_path = os.path.join(
